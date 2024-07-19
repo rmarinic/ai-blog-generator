@@ -1,6 +1,6 @@
 # AI Blog Post Generator from YouTube Link
 
-This project is a Python Django-based web application that generates comprehensive blog articles from YouTube video transcripts. By leveraging various powerful libraries and APIs such as PyTube, AssemblyAI, and AI21, this tool extracts audio from YouTube videos, transcribes it, and generates well-formatted blog posts.
+This project is a Python Django-based web application that generates comprehensive blog articles from YouTube video transcripts. By leveraging various powerful libraries and APIs such as PyTube, AssemblyAI, and AI21, this tool extracts audio from YouTube videos, transcribes it, and generates well-formatted blog posts. The application runs on a PostgreSQL database in the background to ensure robust data handling and storage.
 
 ## Features
 
@@ -15,3 +15,4 @@ This project is a Python Django-based web application that generates comprehensi
 - **PyTube**: A lightweight, dependency-free Python library used to download YouTube videos.
 - **AssemblyAI**: An API service for automatic speech recognition (ASR) used to transcribe YouTube video audio.
 - **AI21**: An advanced language model API used to generate human-like text and create the blog post from the transcription.
+- **PostgreSQL**: A powerful, open-source object-relational database system used to handle and store data in the background.
